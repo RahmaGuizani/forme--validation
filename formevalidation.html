@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+  <link rel="stylesheet" href="forme.css">
+  <script type="text/javascript" src="formevalidation.js"></script>
+  <title> Javascript form validation </title>
+   <meta charset="utf-8"> <!--tebda biha el programme bech ta3ml les titre -->
+    </head> 
+  <body>
+<main>
+<form  action="create.html" name="frm1" method="" onsubmit="return validate()" >
+    <div class="NESM">
+        <label > Name:  <br>
+            <input type= "text" name="name" value="" size="30" id="name" aria-required="true" aria-invalid="false">      
+        </label>
+        <label>  <br> Adresse: <br>
+            <input type="text" name="adresse" value="" size="30" id="adresse" aria-required="true" aria-invalid="false">
+        </label>
+        <label> <br> E-mail Adresse <br>
+            <input type="email" name="email" value="" size="30" id="email" aria-required="true" aria-invalid="false">
+        </label>
+        <label> <br >Password:  <br>
+                 <input type="password" name="password" value="" size="30" id="password" aria-required="true" aria-invalid="false"  > 
+        </label>
+        <label>  <br >Comment: <br>
+        <input type="text" name="comment" value="" size="30" class="comment" aria-required="true" aria-invalid="false"  > 
+        </label>
+
+                 <p><input type="submit" value="Send" class="submitsend" size="10"></p>
+                 <p><input type="reset" value="Reset" class="submitreset" size="10"></p>
+        </form>
+        <div id="eresult" style="color:red"></div>
+    
+       
+    </div>
+    </main>
+</body>
+    

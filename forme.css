@@ -1,0 +1,74 @@
+
+body
+{ 
+   
+  background-image: linear-gradient(to right,rgb(150,0,220), rgb(80 ,20,200));
+    }     
+#name {  font-size:25px;   !important;
+        background-color: rgb(80 ,20,200);
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color: rgb(150,0,220); 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#ffd900 ;}
+#adresse{ font-size:25px;   !important;
+    background-color: rgb(80 ,20,200);
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: rgb(150,0,220); 
+    -webkit-border-radius: 0.333em;
+    -moz-border-radius: 0.333em;
+    border-radius: 0.333em;
+    color:#ffd900 ; }
+#email{ font-size:25px;   !important;
+    background-color: rgb(80 ,20,200);
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: rgb(150,0,220); 
+    -webkit-border-radius: 0.333em;
+    -moz-border-radius: 0.333em;
+    border-radius: 0.333em;
+    color:#ffd900 ;}
+#password{ font-size:25px;   !important;
+    background-color: rgb(80 ,20,200);
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: rgb(150,0,220); 
+    -webkit-border-radius: 0.333em;
+    -moz-border-radius: 0.333em;
+    border-radius: 0.333em;
+    color:#ffd900 ; }
+                
+.comment{ font-size:25px;   !important;
+    background-color: rgb(80 ,20,200);
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: rgb(150,0,220); 
+    -webkit-border-radius: 0.333em;
+    -moz-border-radius: 0.333em;
+    border-radius: 0.333em;
+    color:#ffd900 ; }
+.submitsend {  border-radius: 0.333em ;
+               background-color: rgb(80 ,20,200);
+              color: #FFFFFF !important;
+               border-color: rgb(150,0,220);
+               text-align: center;
+               text-transform:uppercase;
+               font-size: 25px; !important;
+               width:450px; 
+               cursor: pointer;}
+.submitreset {  border-radius: 0.333em ;
+    background-color: rgb(80 ,20,200);
+   color: #FFFFFF !important;
+   border-color: rgb(150,0,220);
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 25px; !important;
+    width:450px; 
+    cursor: pointer;}               
+.NESM{
+     margin-top:30px;
+     margin-left : 400px ;}
+
